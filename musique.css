@@ -1,0 +1,116 @@
+.navbar {
+    background-color: black;
+    padding-left: 52%;
+    font-weight: bold;
+}
+.nav-link {
+    margin-left: 3em;
+}
+
+.titre{
+    text-align: center;
+    font-weight: bold;
+}
+
+body{
+    background: linear-gradient(90deg, #8360c3, #2ebf91);
+}
+
+i{
+    font-size: 35px;
+    margin-left: 75%;
+    color: white;
+}
+
+#FreeMusic{
+    height: 50%;
+    width: 80%;
+    margin-left: -750%;
+}
+p{
+    font-size: 20px;
+    color: white;
+}
+
+h1{
+    margin-left: 20%;
+    margin-top:  -20%;
+    font-size: 4em;
+    font-weight: bold;
+}
+#btnplay{
+    width: 220px;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+#btnplay:hover{
+    cursor: pointer;
+}
+
+.dadju:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.didi:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.ayra{
+    height: 300px;
+    width: 300px;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+.ayra:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.dadju{
+    width: 180px;
+    height: 230px;
+    margin-left: 44%;
+    margin-top: -22%;
+}
+.didi{
+    height: 20px;
+    width: 300px;
+    margin-top: 10%;
+    margin-left: 6%;
+}
+.didi:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.gims{
+    height: 20px;
+    width: 300px;
+    margin-top: -2%;
+    margin-left: 42%;
+}
+.gims:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.you{
+    height: 20px;
+    width: 300px;
+    margin-top: -2%;
+    margin-left: 77%;
+}
+
+.you:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+.johnny{
+    margin-left: 78%;
+    margin-top: -17%;
+
+}
+.johnny:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+

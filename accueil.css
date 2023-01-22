@@ -1,0 +1,46 @@
+
+
+.navbar {
+    background-color: black;
+    padding-left: 52%;
+    font-weight: bold;
+}
+
+
+.nav-link {
+    margin-left: 3em;
+}
+
+body {
+    background: #0d6efd;
+    
+    
+  }
+
+i{
+    font-size: 35px;
+    margin-left: 75%;
+}
+#FreeMusic{
+    height: 50%;
+    width: 80%;
+    margin-left: -750%;
+}
+p{
+    font-size: 20px;
+    color: white;
+}
+
+h1{
+    margin-left: 20%;
+    margin-top:  -20%;
+    font-size: 4em;
+    font-weight: bold;
+}
+
+
+
+
+
+
+

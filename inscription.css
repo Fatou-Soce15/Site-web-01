@@ -1,0 +1,117 @@
+body{
+    background: linear-gradient(90deg, #8360c3, #2ebf91);
+}
+
+img {
+    width: 10%;
+}
+
+.titre {
+    text-align: center;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+h3 {
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.formulaire {
+    width: 35%;
+    margin: auto;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.form-control {
+    height: 4em;
+}
+
+#profil {
+    margin-left: 32.5%;
+}
+
+#date_naiss {
+    margin-left: 32%;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.jour {
+    margin-left: 32%;
+}
+
+.mois {
+    margin-left: 45%;
+    margin-top: -1.7%;
+}
+
+.annee {
+    margin-left: 58%;
+    margin-top: -1.8%;
+}
+
+#jour {
+    margin-left: 32%;
+    width: 9%;
+    height: 2em;
+    font-size: 1.2em;
+}
+
+#mois {
+    margin-left: 3.5%;
+    width: 9%;
+    height: 2.5em;
+}
+
+#annee {
+    margin-left: 58%;
+    margin-top: -2.9%;
+}
+
+#one {
+    height: 2.5em;
+    width: 20%;
+}
+
+#sexe{
+    margin-left: 32%;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+#two {
+    margin-left: 32%;
+}
+
+#three {
+    margin-left: 32%;
+}
+
+#four{
+    margin-left: 32%;
+}
+
+#five {
+    margin-left: 32%;
+}
+
+#six{
+    margin-left: 32%;
+}
+
+#seven{
+    margin-left: 48%;
+}
+
+#seven:hover{
+    transform:scale(1.25);
+}
+
+#height {
+    margin-left: 35%;
+    font-size: 1.2em;
+}

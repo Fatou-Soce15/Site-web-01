@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S'inscrire - Free Music</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="inscription.css">
+    <script src="./inscription.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link rel="shortcut icon" href="./WhatsApp Image 2023-01-01 à 19.35.31.jpg">
+</head>
+
+<body>
+    <div class="titre">
+        <p><a href="./accueil.html"><img src="./WhatsApp Image 2023-01-01 à 19.35.31.jpg" alt=""></a></p>
+        <p>
+        <h2>Inscrivez-vous gratuitement<br> pour lancer la lecture.</h2>
+        </p>
+        <hr>
+        <h3>Inscrivez-vous avec votre adresse e-mail</h3>
+    </div><br>
+    <div id="container">
+    <div class="formulaire">
+        <label for="exampleInputEmail1" class="form-label">Quelle est votre adresse e-mail?</label><br>
+        <input type="email" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock"
+            placeholder="Saisissez votre adresse e-mail."><br>
+        <label for="exampleInputEmail1" class="form-label">Confirmez vote adresse e-mail</label>
+        <input type="email" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock"
+            placeholder="Saisissez de nouveau votre mot de passe."><br>
+        <label for="inputPassword5" class="form-label">Créez un mot de passe</label>
+        <input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock"
+            placeholder="Créez un mot de passe."><br>
+        <label for="text" class="form-label">Comment doit-on vous appelez?</label>
+        <input type="text" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock"
+            placeholder="Saisissez un nom de profil.">
+    </div>
+    <p id="profil">Celui-ci apparaît sur votre profil.</p><br>
+    <p id="date_naiss">Quelle est votre date de naissance ?</p>
+    <div class="jour">Jour</div>
+    <div class="mois">Mois</div>
+    <div class="annee">Année</div>
+    <input type="text" id="jour" placeholder="JJ">
+    <select name="civilite" id="mois">
+        <option value="">mois</option>
+        <option value="Janvier">Janvier</option>
+        <option value="Fevrier">Fevrier</option>
+        <option value="Mars">Mars</option>
+        <option value="Avril">Avril</option>
+        <option value="Mai">Mai</option>
+        <option value="Juin">Juin</option>
+        <option value="Juillet">Juillet</option>
+        <option value="Aout">Aout</option>
+        <option value="Septembre">Septembre</option>
+        <option value="Octobre">Octobre</option>
+        <option value="Novembre">Novembre</option>
+        <option value="Décembre">Décembre</option>
+    </select>
+    <div id="annee">
+    <input type="text" id="one"  placeholder="AAAA">
+</div><br>
+<p id="sexe">Quel est votre sexe ?</p>
+<div class="form-check form-check-inline" id="two">
+    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1">
+    <label class="form-check-label" for="inlineRadio1">Masculin</label>
+  </div>
+  <div class="form-check form-check-inline">
+    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2">
+    <label class="form-check-label" for="inlineRadio2">Féminin</label>
+  </div>
+  <div class="form-check form-check-inline">
+    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio3" value="option3">
+    <label class="form-check-label" for="inlineRadio3">Binaire</label>
+  </div><br><br>
+  <div class="form-check form-check-inline" id="three">
+    <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio4" value="option4">
+    <label class="form-check-label" for="inlineRadio4">Je ne souhaite pas l'indiquer</label>
+  </div><br><br>
+  <div class="form-check" id="four">
+    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+    <label class="form-check-label" for="flexCheckDefault">
+        Je ne souhaite pas recevoir de messages marketing de Free Music
+    </label>
+  </div><br><br>
+  <div class="form-check" id="five">
+    <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+    <label class="form-check-label" for="flexCheckChecked">
+        Partagez les données sur mon inscription avec les fournisseurs <br>de contenu de Free Music à des fins de marketing.
+    </label>
+  </div><br>
+  <p id="six">En cliquant sur le bouton d'inscription, vous acceptez les <a href="#"> Conditions générales<br>d'utilisation de Free Music</a></p>
+  <a class="btn btn-primary" href="./accueil.html" role="button" id="seven" type="submit">S'inscrire</a>
+  <br><br>
+  <p id="height">Vous avez déjà un compte ? <a href="./connexion.html" >Connectez-vous.</a></p>
+</div>
+</body>
+
+</html>
